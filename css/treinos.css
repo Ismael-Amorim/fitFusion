@@ -1,0 +1,61 @@
+.treino1 {
+    width: auto;
+    margin: 0 auto;
+    padding: 0.3em;
+    text-align: center;
+}
+
+
+.acao1,
+.acao2,
+.acao3 {
+    font-size: 1.2rem;
+    background-color: #FFE4B5;
+    height: 7rem;
+
+}
+
+
+.treino1 input {
+    margin-right: 1rem;
+    cursor: pointer;
+    float: right;
+    vertical-align: middle;
+    position: relative;
+    transform: scale(2);
+
+}
+
+
+.acao1,
+.acao2,
+.acao3,
+span {
+    display: block;
+    text-align: center;
+    font-family: 'Berlin Sans FB';
+}
+
+
+#container,
+#container1,
+#container2,
+#container3,
+#container4,
+#container5 {
+    height: auto;
+    display: none;
+    overflow: scroll;
+    margin: 1rem 1.3rem 0 1.3rem !important;
+    width: auto !important;
+    border-radius: 1rem;
+    border-color: black !important;
+    text-align: center !important;
+    background-color: #a0cfff;
+    overflow: hidden;
+}
+
+#dias-semana table {
+    text-align: center;
+    font-size: 1.5rem;
+}

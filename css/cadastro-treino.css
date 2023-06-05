@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(6, 41, 66, 1) !important;
+    font-family: 'Berlin Sans FB';
+    color: #ffff !important;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.rodape {
+    height: 6.5rem;
+    text-align: center;
+}
+
+.boas-vindas {
+    text-align: center;
+    font-family: 'Berlin Sans FB';
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.infos {
+    margin: 0 auto;
+    border: 0.15em solid #000;
+    border-radius: 0.8rem;
+    text-align: center;
+    font-family: 'Calibri';
+    font-size: 1rem;
+    font-weight: bold;
+    width: 20rem;
+}
+
+.infos :placeholder-shown {
+    text-align: center !important;
+}
+
+
+.footer {
+    text-align: center;
+}
+
+.footer input[type="submit"] {
+    height: 2.5rem;
+    text-align: center;
+    color: #fff;
+    margin: 0.5rem;
+
+}
+
+.infos input {
+    text-align: center !important;
+}

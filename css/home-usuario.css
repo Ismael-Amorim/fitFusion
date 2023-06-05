@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(6, 41, 66, 1) !important;
+    font-family: 'Berlin Sans FB';
+    text-align: center !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.boas-vindas {
+    text-align: center;
+    font-family: 'Berlin Sans FB';
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: #ffff;
+}
+
+button {
+    font-size: 16px;
+    position: relative !important;
+    margin: auto !important;
+    padding: 1em 2.5em 1em 2.5em !important;
+    border: none;
+    background: #000;
+    transition: all 0.1s linear;
+    box-shadow: 0 0.4em 0.5em rgba(0, 0, 0, 0.1);
+    width: 20rem;
+    align-items: center !important;
+
+}
+
+button:active {
+    transform: scale(0.1);
+}
+
+button span {
+    color: #062942;
+    font-family: 'Calibri';
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center !important;
+}
+
+button .border {
+    position: absolute;
+    border: 0.15em solid #3db0f7;
+    transition: all 0.3s 0.08s linear;
+    top: 50% !important;
+    left: 50% !important;
+    width: 100% !important;
+    height: 100% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+button:hover .border {
+    display: block !important;
+}
+
+.full-rounded {
+    border-radius: 2em !important;
+
+}
+
+
+#dias-semana button {
+    background-color: #f0f0f0;
+    margin-top: 1rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    height: 2.5rem;
+}
+
+.footer {
+    margin-top: 1.2rem;
+}
+
+.footer button {
+    background-color: #6aa9e9;
+    margin-top: 2.5rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer span {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.exercicio,
+.series_repeticoes {
+    text-align: left !important;
+    padding: 0 0 0 1rem;
+    /*background-color: #ED7D31;*/
+    background-color: #a0cfff;
+    font-family: 'Berlin Sans FB';
+}
+
+.exercicio {
+    font-weight: bold;
+    margin-top: 0.3rem;
+    font-size: 1.7rem !important;
+
+}
+
+.series_repeticoes {
+    font-size: 1.5rem !important;
+}

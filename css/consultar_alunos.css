@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(6, 41, 66, 1) !important;
+    font-family: 'Berlin Sans FB';
+    text-align: center !important;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.rodape {
+    height: 6.5rem;
+    text-align: center;
+}
+
+#logo img {
+    width: 11rem;
+    text-align: center;
+}
+
+.boas-vindas {
+    text-align: center;
+    font-family: 'Berlin Sans FB';
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ffff;
+    margin-top: 1rem;
+}
+
+.button {
+    font-size: 16px;
+    position: relative;
+    margin: 1.5rem;
+    padding: 1em 2.5em 1em 2.5em;
+    border: none;
+    transition: all 0.1s linear;
+    box-shadow: 0 0.4em 0.5em rgba(0, 0, 0, 0.1);
+    width: 8.5rem !important;
+    align-items: center;
+    border-radius: 2em;
+    background-color: #ED7D31;
+
+}
+
+.button:active {
+    transform: scale(0.1);
+}
+
+.button span {
+    color: #000;
+    font-family: 'Calibri';
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.button .border {
+    position: absolute;
+    border: 0.15em solid #000;
+    transition: all 0.3s 0.08s linear;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+}
+
+
+.footer span {
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.mb-3 input {
+    text-align: center !important;
+}
+
+.mb-3 {
+    text-align: center !important;
+}
+
+#data_inicio,
+#data_final {
+    border-color: #3db0f7 !important;
+
+}
+
+#addon-wrapping {
+
+    text-align: center !important;
+}
+
+.form-control {
+    border-color: #3db0f7 !important;
+
+}
+
+#pesquisar {
+    border-color: #3db0f7 !important;
+
+}
+
+table,
+tr,
+td {
+    color: #ffff !important;
+}
